@@ -159,7 +159,8 @@ public class GUI extends JFrame
 		{
 			String text = antwort.getText();
 			int laenge = text.length();
-			if (laenge > 0) {
+			if (laenge > 0) 
+			{
 				char zeichen = text.charAt(laenge-1);
 	        	if (!((zeichen >= '0') && (zeichen <= '9'))) 
 	        	{
